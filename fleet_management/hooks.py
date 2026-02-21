@@ -5,6 +5,16 @@ app_description = "fleet management system"
 app_email = "samual.9897568943@gmail.com"
 app_license = "mit"
 
+
+
+# hooks.py
+
+# Include Dashboard Charts, Custom Fields, and Custom Scripts in GitHub export
+fixtures = [
+    "Custom Field",
+    "Dashboard Chart",
+    "Property Setter"
+]
 # Apps
 # ------------------
 
